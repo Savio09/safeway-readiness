@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Kalnia&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 20%;
+  margin-right: 10px;
+}
+.nav-container ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-container a {
+  margin: 0 12px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cta {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+a.cta-red {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.hero-section {
+  width: 85%;
+  height: 85vh;
+  margin: 30px auto;
+  position: relative;
+}
+
+.hero-section .hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  padding: 0 20px 20px 20px;
+}
+
+.overlay h1 {
+  color: #f1f1f1;
+  font-size: 5rem;
+  padding: 0 20px;
+}
+
+.overlay .cta-red {
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 30px 20px;
+}
+
+.latest h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  box-shadow: 0px 1px 2px 2px#f1f1f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.grid-item .cta {
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.grid-item .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.disasterTracker {
+  width: 85%;
+  margin: 20px auto;
+}
+
+.nav ul {
+  display: flex;
+  margin: 20px 0 50px 0;
+  justify-content: space-between;
+  width: 30%;
+  gap: 20px;
+}
+
+.nav li {
+  display: flex;
+  padding: 5px 10px;
+  background-color: #ebebeb;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.nav li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.soon img {
+  width: 50%;
+}
+
+.soon h1 {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.guide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.guide li {
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.guide li:hover .icon {
+  transform: rotateZ(-45deg);
+  transition: 0.5s all;
+}
+
+.guide a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #333;
+}
+
+.guide a > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guide a > div > span {
+  background-color: #ebebeb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.guides {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.header-title h1 {
+  display: flex;
+  gap: 10px;
+}
+
+.header-title span {
+  background-color: #ebebeb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header-title button {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 0;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.content h2 {
+  margin: 20px 0;
+}
+
+.content p {
+  line-height: 2rem;
+}
+
+/*Style code copied from a source*/
+
+.background {
+  width: 100vw;
+  height: 93vh;
+  background: linear-gradient(
+    75deg,
+    rgb(20, 23, 33) 0%,
+    rgb(20, 23, 33) 50%,
+    rgba(20, 23, 33, 0.8) 100%
+  );
+  /* Vertical center */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  padding: 0% 25% 0% 25%;
+}
+
+.form-title {
+  font-size: 42px;
+  font-family: "Avenir";
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #e8e8e8;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-family: "Avenir";
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+  font-family: Avenir;
+  width: 100px;
+}
+.auth-input {
+  background-color: #3e404b;
+  color: white;
+  font-family: "Avenir";
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #fa541c;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Avenir";
+  cursor: pointer;
+  transition: all 0.44s ease;
+  -webkit-transition: all 0.44s ease;
+  -moz-transition: all 0.44s ease;
+}
+.auth-button:hover {
+  filter: brightness(145%);
+}
+
+.chat-wrapper {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
+  background: rgb(43, 47, 60);
+}
+
+.guides.map-image {
+  width: 80%;
+}
+
+.routes-title {
+  line-height: 2rem;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.routes-title h1 {
+  margin-bottom: 40px;
+}
+
+.google-maps {
+  position: relative;
+}
+
+.recenter {
+  position: absolute;
+  right: 0.8%;
+  font-size: 2.5rem;
+  cursor: pointer;
+  bottom: 25%;
+  background-color: #fa541c;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 auto;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .overlay h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 30px;
+  }
+  a {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  ul .cta {
+    padding: 5px;
+  }
+}
